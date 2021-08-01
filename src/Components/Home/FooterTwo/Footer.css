@@ -1,0 +1,12 @@
+.high {
+  color: crimson;
+}
+
+ul {
+  list-style: none;
+}
+
+li:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}

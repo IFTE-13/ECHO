@@ -1,0 +1,50 @@
+.headerSec {
+  background-image: url(../../../../images/logos/frame3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+
+.item {
+  height: 70vh;
+}
+
+.headMain {
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .headMainImg:hover {
+    width: 100% !important;
+  }
+  .headMainImg img:hover {
+    animation: headMainImg 0.3s linear;
+    background: linear-gradient(to right, #111430, #343966);
+  }
+}
+@keyframes headMainImg {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .btnHire:hover {
+    animation: btnHire 0.4s linear;
+    width: 100% !important;
+    background: linear-gradient(to right, #111430, #343966);
+  }
+}
+@keyframes btnHire {
+  from {
+    transform: scaleX(0.8);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}

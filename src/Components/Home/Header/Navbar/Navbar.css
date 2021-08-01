@@ -1,0 +1,32 @@
+.bgMenu {
+  background: linear-gradient(to right, #272e42, #040d27);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .bgMenu:hover {
+    animation: bgMenu 0.5s linear;
+    background: linear-gradient(to right, #cf63a6, #8b108f);
+  }
+}
+@keyframes bgMenu {
+  from {
+    transform: scaleX(0.2);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nav-font {
+    color: white;
+  }
+  .nav-font ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.btnLogin:hover {
+  background: linear-gradient(to right, #111430, #343966);
+}
